@@ -3,10 +3,47 @@
 
 <head>
     <title>Map</title>
+    <link rel="stylesheet" href="../CSS/sideNav.css">
+    <script src="../JS/sideNav.js"></script>
 </head>
 
 <body>
+    <div id="mySidenav" class="sidenav">
 
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+        <div id="Mnavnav" class="navnav">
+
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNavNav()">&times;</a>
+        </div>
+
+        <span style="font-size:30px;cursor:pointer" onclick="openNavNav()">&#9776; About</span>
+
+        <br>
+        <br>
+
+        <div id="Mnavnav2" class="navnav2">
+
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNavNav2()">&times;</a>
+        </div>
+
+        <span style="font-size:30px;cursor:pointer" onclick="openNavNav2()">&#9776; Contact</span>
+
+        <br>
+        <br>
+
+        <div id="Mnavnav3" class="navnav3">
+
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNavNav3()">&times;</a>
+            <form action="index.html">
+                <input type="text" placeholder="Opinion..." name="Opinion">
+            </form>
+        </div>
+
+        <span style="font-size:30px;cursor:pointer" onclick="openNavNav3()">&#9776; Tell me what you think</span>
+    </div>
+
+    <span style="font-size:30px;cursor:pointer;color: white;" onclick="openNav()">&#9776; MORE</span>
 </body>
 
 </html>
