@@ -188,3 +188,22 @@ p {
         font-size: 18px;
     }
 }
+
+#mySidenav
+{
+    opacity: 70%;
+}
+
+#Mnavnav
+{
+    background: rgba(29, 27, 27, 0.5);
+}
+
+#Mnavnav2
+{
+    background: rgba(29, 27, 27, 0.5);
+}
+#Mnavnav3
+{
+    background: rgba(29, 27, 27, 0.5);
+}
