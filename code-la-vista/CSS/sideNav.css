@@ -189,21 +189,18 @@ p {
     }
 }
 
-#mySidenav
-{
+#mySidenav {
     opacity: 70%;
 }
 
-#Mnavnav
-{
+#Mnavnav {
     background: rgba(29, 27, 27, 0.5);
 }
 
-#Mnavnav2
-{
+#Mnavnav2 {
     background: rgba(29, 27, 27, 0.5);
 }
-#Mnavnav3
-{
+
+#Mnavnav3 {
     background: rgba(29, 27, 27, 0.5);
 }

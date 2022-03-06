@@ -1,4 +1,5 @@
-body, html {
+body,
+html {
     height: 100%;
     margin: 0;
     overflow-x: hidden;
@@ -12,6 +13,19 @@ body, html {
     width: 2000px;
     margin-left: 17%;
     position: relative;
-    top:8%;
+    top: 8%;
     background-size: 60% 75%;
+}
+
+* {
+    font-family: 'Baloo Paaji 2', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background: #141414;
 }
