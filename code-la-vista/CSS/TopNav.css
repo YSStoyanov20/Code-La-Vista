@@ -1,0 +1,74 @@
+.topnav {
+    overflow: hidden;
+    background-color: #F8B878;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 1vh 2vw;
+    font-size: 2em;
+}
+
+.Home {
+    background-color: #197350;
+    color: white;
+}
+
+.topnav a:link {
+    color: #11151C;
+}
+
+.topnav a:visited {
+    color: #11151C;
+}
+
+.topnav a:hover {
+    color: #484943;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 1em;
+    border: none;
+    outline: none;
+    padding: 1vh 2vw;
+    margin: 0;
+}
+
+.dropdown .dropdown-content {
+    display: none;
+    position: absolute;
+    /*subject to finnish*/
+}
+
+.dropdown-content a {
+    float: none;
+    padding: 1vh 1vw;
+    display: block;
+    text-align: left;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #2C4223;
+}
+
+.dropdown-content a:hover {
+    color: #197350;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child),
+    .dropdown .dropbtn {
+        display: none;
+    }
+}
