@@ -20,6 +20,17 @@ html {
     position: relative;
     top: 8%;
     background-size: 60% 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 950px) {
+    .bg-image {
+        width: 100%;
+        height: auto;
+        /*subject to change*/
+    }
 }
 
 * {
@@ -53,6 +64,7 @@ body {
     text-align: center;
     color: rgb(165, 157, 157);
     margin: 5px;
+    margin-bottom: 10px;
 }
 
 .frontpageDesc {
