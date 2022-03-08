@@ -1,0 +1,21 @@
+.bg-image {
+    background-image: url("../IMAGES/bulgaria_map.svg");
+    height: 1000px;
+    background-repeat: no-repeat;
+    width: 2000px;
+    margin-left: 17%;
+    position: relative;
+    top: 8%;
+    background-size: 60% 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 950px) {
+    .bg-image {
+        width: 100%;
+        height: auto;
+        /*subject to change*/
+    }
+}
