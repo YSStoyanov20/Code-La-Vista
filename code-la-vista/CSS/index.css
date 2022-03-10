@@ -1,3 +1,22 @@
+.center-div {
+    margin: auto;
+    text-align: center;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+    font-size: 1em;
+    width: 80%;
+}
+
+#left-div {
+    text-align: left;
+}
+
+#right-div {
+    text-align: right;
+}
+
 #menu {
     font-size: 30px;
     cursor: pointer;
