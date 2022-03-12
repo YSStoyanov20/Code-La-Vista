@@ -36,12 +36,13 @@ a:hover {
 }
 
 header {
-    height: 120px;
+    height: 100px;
+    margin-bottom: 10px;
 }
 
 header h1 {
     float: left;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 header nav {
@@ -103,9 +104,18 @@ header nav ul li a {
 }
 
 .features ul li {
-    padding-top: 140px;
+    padding-top: 100px;
+    height: 250px;
     text-align: center;
     text-shadow: 2px 2px 2px black;
+    margin: 1em;
+    border-radius: 1em;
+    color: whitesmoke;
+    font-size: 17px;
+}
+
+.features h2 {
+    margin-top: 20px;
 }
 
 .features ul li.feature-1 {
