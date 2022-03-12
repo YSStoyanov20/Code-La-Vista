@@ -1,85 +1,125 @@
-* {
-    margin: 0;
-    padding: 0;
+body {
+    background-color: #E6AA68;
+    color: blanchedalmond
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 55px;
+    text-transform: uppercase;
     text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2C4223;
 }
 
 .wrapper {
+    margin: 0 auto;
+    padding: 0 10px;
     width: 100%;
 }
 
-.img-banner {
+header {
+    height: 120px;
+}
+
+header h1 {
+    float: left;
+    margin-top: 30px;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-top: 50px;
+}
+
+header nav ul li a {
+    color: #2E1B17;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin-right: 20px;
+}
+
+.hero-image {
+    height: 580px;
+    padding-top: 1px;
+    background-size: cover;
+    background: url("../Images/index/rila-bg.jpg") no-repeat center;
+}
+
+.hero-image h2 {
+    margin: 180px 0 30px 0;
+    font-size: 3em;
+    color: burlywood;
+    text-shadow: 3px 3px 3px black;
+}
+
+.button-1 {
+    width: 180px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 3px;
+    background: #395f2b;
+    color: burlywood;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 50px;
+    transition: 0.5s;
+}
+
+.button-1:hover {
+    background-color: #688834;
+    color: hsl(27, 63%, 61%);
+}
+
+.features ul {
     width: 100%;
-    height: 25%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0.5em;
 }
 
-.img-banner {
-    display: none;
+.features ul li {
+    padding-top: 140px;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
 }
 
-.info {
-    width: 100%;
+.features ul li.feature-1 {
+    background: url('../Images/index/burgas-bg.jpg') no-repeat top center;
 }
 
-.info h1,
-h2 {
-    padding: 30px 30px 20px;
-    font-size: 50px;
-    color: #111;
-    line-height: 44px;
+.features ul li.feature-2 {
+    background: url('../Images/index/vk-bg.jpg') no-repeat top center;
 }
 
-.info p {
-    padding: 0px 30px 20px;
-    font-size: 16px;
-    color: #111;
-    line-height: 24px;
+.features ul li.feature-3 {
+    background: url('../Images/index/plovdiv-bg.jpg') no-repeat top center;
 }
 
-.map-button {
-    width: 600px
-}
-
-@media only screen and (min-width: 768px) {
-    .img-banner {
-        display: block;
-        width: 100%;
-        padding-bottom: 30px;
-    }
-    .wrapper {
-        width: 600px;
-        margin: 0 auto;
-    }
-    .info h1,
-    h2 {
-        padding: 20px 0px 0px;
-    }
-    .info p {
-        padding: 20px 0px 0px;
-    }
-    .map-button {
-        padding-top: 30px;
-    }
-}
-
-@media only screen and (min-width: 1000px) {
-    .wrapper {
-        width: 1000px;
-    }
-    .info {
-        width: 45%;
-        float: right;
-    }
-    .info h1,
-    h2 {
-        padding: 20px 0px 0px 30px;
-    }
-    .info p {
-        padding: 20px 0px 0px 30px;
-    }
-    .map-button {
-        padding-top: 0px;
-        width: 55%;
-        float: left;
-    }
+.features ul li.feature-4 {
+    background: url('../Images/index/vididin-bg.jpg') no-repeat top center;
 }
