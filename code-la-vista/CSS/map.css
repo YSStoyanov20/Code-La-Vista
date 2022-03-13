@@ -1,3 +1,44 @@
+.wrapper {
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 100%;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 45px;
+    font-weight: bold;
+    color: blanchedalmond
+}
+
+header {
+    height: 100px;
+    margin-bottom: 10px;
+    background-color: #E6AA68;
+}
+
+header h1 {
+    float: left;
+    margin-top: 20px;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-top: 50px;
+}
+
+header nav ul li a {
+    color: #2E1B17;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin-right: 20px;
+}
+
 .bg-image {
     width: 85%;
     display: flex;
@@ -10,18 +51,18 @@
 
 .bg-image path {
     fill: blanchedalmond;
-    stroke: gray;
+    stroke: black;
     stroke-width: 2px;
     transition: fill 0.3s;
 }
 
 svg path:hover {
-    fill: aqua;
+    fill: #c7b5b5bd;
 }
 
 .MapHeader {
-    text-align:center;
+    text-align: center;
     color: blanchedalmond;
-    font-weight:bold;
-    font-size:25px;
+    font-weight: bold;
+    font-size: 25px;
 }
