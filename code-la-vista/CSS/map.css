@@ -1,3 +1,7 @@
+body {
+    background-color: #07110C;
+}
+
 .wrapper {
     margin: 0 auto;
     padding: 0 10px;
@@ -14,7 +18,7 @@ h1 {
 header {
     height: 100px;
     margin-bottom: 10px;
-    background-color: #E6AA68;
+    background-color: #1D3124;
 }
 
 header h1 {
@@ -32,7 +36,16 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: #2E1B17;
+    color: burlywood;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin-right: 20px;
+}
+
+header nav ul li a:hover {
+    color: rgb(212, 161, 95);
+    transition: 0.5s;
     text-transform: uppercase;
     font-weight: bold;
     display: block;
@@ -58,6 +71,7 @@ header nav ul li a {
 
 svg path:hover {
     fill: #c7b5b5bd;
+    transition: 0.7s;
 }
 
 .MapHeader {

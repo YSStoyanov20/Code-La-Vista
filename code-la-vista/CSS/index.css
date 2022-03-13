@@ -1,6 +1,15 @@
+.color {
+    transition: 1s;
+    background-color: #1D3124;
+}
+
+.colorChange {
+    transition: 1s;
+    background-color: #07110C;
+}
+
 body {
-    background-color: #E6AA68;
-    color: blanchedalmond
+    color: blanchedalmond;
 }
 
 h1 {
@@ -26,7 +35,8 @@ a {
 }
 
 a:hover {
-    color: #2C4223;
+    color: rgb(212, 161, 95);
+    transition: 0.5s;
 }
 
 .wrapper {
@@ -55,7 +65,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: #2E1B17;
+    color: burlywood;
     text-transform: uppercase;
     font-weight: bold;
     display: block;
@@ -96,55 +106,81 @@ header nav ul li a {
     color: hsl(27, 63%, 61%);
 }
 
-.features ul {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 0.5em;
-}
-
-.features ul li {
-    padding-top: 60px;
-    height: 250px;
-    text-align: center;
-    text-shadow: 2px 2px 2px black;
-    margin: 1em;
-    border-radius: 1em;
-    color: whitesmoke;
-    font-size: 17px;
+.features {
+    margin: 0;
+    padding: 0.5em;
 }
 
 .features h2 {
-    margin-top: 20px;
+    margin-top: 3vh;
+    margin-bottom: 6vh;
+    text-align: center;
+    font-size: 3em;
 }
 
-.features ul li.feature-1 {
-    background: url('../Images/index/burgas-bg.jpg') no-repeat top center;
+.grid {
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1em;
+    overflow: hidden;
 }
 
-.features ul li.feature-2 {
-    background: url('../Images/index/vk-bg.jpg') no-repeat top center;
+.card {
+    border-radius: 1em;
+    overflow: hidden;
+    position: relative;
 }
 
-.features ul li.feature-3 {
-    background: url('../Images/index/plovdiv-bg.jpg') no-repeat top center;
+.card-text {
+    position: absolute;
+    top: 0;
+    transition: 0.7s;
 }
 
-.features ul li.feature-4 {
-    background: url('../Images/index/vididin-bg.jpg') no-repeat top center;
+.card h3 {
+    margin-top: 10%;
+    margin-bottom: 1vh;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    line-height: 1.25;
+    text-shadow: 0 0 0.25em #000000;
+    transition: 0.75s;
 }
 
-#transitions1 {
-    height: 120px;
-    width: 100%;
-    background: -webkit-linear-gradient(#E6AA68, #E99541);
-    background: -o- linear -gradient(#E6AA68, #E99541);
-    background: -moz- linear -gradient(#E6AA68, #E99541);
-    background: linear -gradient(#E6AA68, #E99541);
+.card p {
+    margin-left: 1vw;
+    width: 90%;
+    text-align: center;
+    font-size: 1em;
+    line-height: 1.5;
+    text-shadow: 0 0 0.25em #000000;
+    opacity: 0;
+    transition: 0.75s;
+}
+
+.card img {
+    height: 100%;
+    transition: transform 1.5s, filter 1s;
+}
+
+.card:hover img {
+    transform: scale(1.25);
+    filter: brightness(0.5) blur(0.2em) contrast(95%) saturate(50%);
+}
+
+.card:hover h3 {
+    margin-top: 20%;
+    font-size: 2.5em;
+}
+
+.card:hover p {
+    opacity: 1;
 }
 
 .content1 {
-    background-color: #E99541;
     position: relative;
     overflow: hidden;
     width: 100%;
@@ -153,7 +189,6 @@ header nav ul li a {
 }
 
 .cta {
-    background-color: #E99541;
     padding: 60px 0;
     text-align: center;
 }

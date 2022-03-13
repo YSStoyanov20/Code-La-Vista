@@ -7,70 +7,90 @@
     <link rel="stylesheet" href="../CSS/style.css">
     <link rel="stylesheet" href="../CSS/index.css">
 
+    <script src="../JS/colors-switch.js"></script>
+
     <link rel="icon" href="../Images/logo.jpg" type="image/png" width="40" height="40">
 </head>
 
 <body>
-    <header>
-        <div class="wrapper">
-            <h1>Code-La-Vista.</h1>
-            <nav>
-                <ul>
-                    <li><a href="Index.html">Home</a></li>
-                    <li><a href="about.html">About us</a></li>
-                </ul>
-            </nav>
+    <div id="color" class="color">
+        <header>
+            <div class="wrapper">
+                <h1>Code-La-Vista.</h1>
+                <nav>
+                    <ul>
+                        <li><a href="Index.html">Home</a></li>
+                        <li><a href="about.html">About us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div class="hero-image">
+            <div class="wrapper">
+                <h2>An Extended map of Bulgaria<br>Where you learn what you don't</h2>
+                <a href="map.html" class="button-1">Take a Look</a>
+            </div>
         </div>
-    </header>
 
-    <div class="hero-image">
-        <div class="wrapper">
-            <h2>An Extended map of Bulgaria<br>Where you learn what you don't</h2>
-            <a href="map.html" class="button-1">Take a Look</a>
+        <div class="features">
+            <h2>Featured Locations</h2>
+
+            <div class="grid">
+                <div class="card">
+                    <img src="../Images/index/burgas-bg.jpg" alt="Burgas">
+
+                    <div class="card-text">
+                        <h3>Burgas</h3>
+                        <p>Burgas is the fourth biggest city, and biggest area in Bulgaria. It is also one of the biggest ports in Entire Europe! Awesome resorts make this place really beautiful and worthy to visit.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="../Images/index/vk-bg.jpg" alt="Burgas">
+
+                    <div class="card-text">
+                        <h3>Veliko Tarnovo</h3>
+                        <p>Former Bulgarian Capital, and one of the most history-rich and oldest cities in Eastern Europe. Tarnovo, as it is sometimes refferred to, is also a host of a lot of traditional beer factories and brasseries.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="../Images/index/plovdiv-bg.jpg" alt="Burgas">
+
+                    <div class="card-text">
+                        <h3>Plovdiv</h3>
+                        <p>An ancient Thracian province capital and modern administrative centre, Plovdiv never stops growing and glowing from it's bright future ahead. If you want to visit this city, you should prepare for a lot of ancient history.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="../Images/index/vididin-bg.jpg" alt="Burgas">
+
+                    <div class="card-text">
+                        <h3>Vidin</h3>
+                        <p>Vidin lies on the banks of the Danube River, which combined with it's close proximity with Romania and Serbia, gave it a big trading importance, therefore turning the city into a prospering marketplace. Nowadays, people can see
+                            a lot of old fortresses.</p>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
 
-    <div class="features">
-        <h2>Featured Locations</h2>
-        <ul>
-            <li class="feature-1 ">
-                <h4>Burgas</h4>
-                <p>Burgas is the fourth biggest city, and biggest area in Bulgaria. It is also one of the biggest ports in Entire Europe! Awesome resorts make this place really beautiful and worthy to visit.</p>
-            </li>
-            <li class="feature-2 ">
-                <h4>Veliko Tarnovo</h4>
-                <p>Former Bulgarian Capital, and one of the most history-rich and oldest cities in Eastern Europe. Tarnovo, as it is sometimes refferred to, is also a host of a lot of traditional beer factories and brasseries.</p>
-            </li>
-            <li class="feature-3 ">
-                <h4>Plovdiv</h4>
-                <p>An ancient Thracian province capital and modern administrative centre, Plovdiv never stops growing and glowing from it's bright future ahead. If you want to visit this city, you should prepare for a lot of ancient history.</p>
-            </li>
-            <li class="feature-4 ">
-                <h4>Vidin</h4>
-                <p>Vidin lies on the banks of the Danube River, which combined with it's close proximity with Romania and Serbia, gave it a big trading importance, therefore turning the city into a prospering marketplace. Nowadays, people can see a lot of
-                    old fortresses.</p>
-            </li>
-        </ul>
-    </div>
-
-    <div id="transitions1"></div>
-
-    <div class="content1">
-        <div class="wrapper">
-            <article>
-                <h2>Featured Content</h2>
-                <h3>Some more featured content from Bulgaria. Take a look at the beautiful nature, history-rich destinations and culture</h3>
-                <iframe width="1280" height="720" src="https://www.youtube.com/embed/N1-Jmq7BLFE?autoplay=1&mute=1&controls=0&loop=1"></iframe>
-            </article>
+        <div class="content1">
+            <div class="wrapper">
+                <article>
+                    <h2>Featured Content</h2>
+                    <h3>Some more featured content from Bulgaria. Take a look at the beautiful nature, history-rich destinations and culture</h3>
+                    <iframe width="1280" height="720" src="https://www.youtube.com/embed/N1-Jmq7BLFE?autoplay=1&mute=1&controls=0&loop=1"></iframe>
+                </article>
+            </div>
         </div>
-    </div>
 
-    <div class="cta">
-        <div class="wrapper">
-            <h3>Want More?</h3>
-            <p>Take a look at our map of Bulgaria for more deatails on the featured and other regions of our beautiful country.
-            </p>
-            <a href="map.html" class="button-1">Get Started</a>
+        <div class="cta">
+            <div class="wrapper">
+                <h3>Want More?</h3>
+                <p>Take a look at our map of Bulgaria for more deatails on the featured and other regions of our beautiful country.
+                </p>
+                <a href="map.html" class="button-1">Take a look</a>
+            </div>
         </div>
     </div>
 
@@ -93,6 +113,10 @@
             </div>
         </div>
     </footer>
+
+
+
+
 </body>
 
 </html>
