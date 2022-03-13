@@ -137,14 +137,14 @@ header nav ul li a {
 #transitions1 {
     height: 120px;
     width: 100%;
-    background: -webkit-linear-gradient(#E6AA68, #c4d177);
-    background: -o- linear -gradient(#E6AA68, #c4d177);
-    background: -moz- linear -gradient(#E6AA68, #c4d177);
-    background: linear -gradient(#E6AA68, #c4d177);
+    background: -webkit-linear-gradient(#E6AA68, #E99541);
+    background: -o- linear -gradient(#E6AA68, #E99541);
+    background: -moz- linear -gradient(#E6AA68, #E99541);
+    background: linear -gradient(#E6AA68, #E99541);
 }
 
 .content1 {
-    background-color: #c4d177;
+    background-color: #E99541;
     position: relative;
     overflow: hidden;
     width: 100%;
@@ -152,12 +152,8 @@ header nav ul li a {
     text-align: center;
 }
 
-.content1 iframe {
-    margin: 20px 0;
-}
-
 .cta {
-    background-color: #c4d177;
+    background-color: #E99541;
     padding: 60px 0;
     text-align: center;
 }
@@ -195,7 +191,7 @@ footer {
 footer {
     padding: 60px 0;
     height: 250px;
-    background-color: #2E1B17;
+    background-color: #1B1A19;
     color: #395f2b;
 }
 
@@ -203,6 +199,10 @@ footer {
     width: 380px;
     float: left;
     margin-top: 10px;
+}
+
+.footer-info a {
+    color: gray
 }
 
 .footer-links {
@@ -220,11 +220,6 @@ footer {
     margin: 10px 0;
 }
 
-#transitions2 {
-    height: 120px;
-    width: 100%;
-    background: -webkit-linear-gradient(#c4d177, #2E1B17);
-    background: -o- linear -gradient(#c4d177, #2E1B17);
-    background: -moz- linear -gradient(#c4d177, #2E1B17);
-    background: linear -gradient(#c4d177, #2E1B17);
+.footer-links a {
+    color: gray
 }
