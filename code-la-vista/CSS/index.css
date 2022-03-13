@@ -166,23 +166,6 @@ header nav ul li a {
     font-size: 60px;
 }
 
-.button-2 {
-    display: block;
-    margin: 0 auto;
-    border-radius: 3px;
-    border: 2px solid #000000;
-    color: #02bcdd;
-    width: 180px;
-    height: 50px;
-    font-size: 20px;
-    line-height: 50px;
-}
-
-.button-2:hover {
-    background-color: #02d6dd;
-    color: #ccaf0b;
-}
-
 footer {
     background-color: #9793935b;
     color: #2C4223;
@@ -222,4 +205,13 @@ footer {
 
 .footer-links a {
     color: gray
+}
+
+@media screen and (max-width: 1400px) {
+    .content1 iframe {
+        width: 90%;
+    }
+    .features ul li {
+        font-size: 14px;
+    }
 }
