@@ -104,7 +104,7 @@ header nav ul li a {
 }
 
 .features ul li {
-    padding-top: 100px;
+    padding-top: 60px;
     height: 250px;
     text-align: center;
     text-shadow: 2px 2px 2px black;
@@ -132,4 +132,99 @@ header nav ul li a {
 
 .features ul li.feature-4 {
     background: url('../Images/index/vididin-bg.jpg') no-repeat top center;
+}
+
+#transitions1 {
+    height: 120px;
+    width: 100%;
+    background: -webkit-linear-gradient(#E6AA68, #c4d177);
+    background: -o- linear -gradient(#E6AA68, #c4d177);
+    background: -moz- linear -gradient(#E6AA68, #c4d177);
+    background: linear -gradient(#E6AA68, #c4d177);
+}
+
+.content1 {
+    background-color: #c4d177;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 60px 0;
+    text-align: center;
+}
+
+.content1 iframe {
+    margin: 20px 0;
+}
+
+.cta {
+    background-color: #c4d177;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.cta h3 {
+    display: block;
+    margin: 0 auto 20px auto;
+    width: 400px;
+    padding: 0 0 20px 0;
+    font-size: 60px;
+}
+
+.button-2 {
+    display: block;
+    margin: 0 auto;
+    border-radius: 3px;
+    border: 2px solid #000000;
+    color: #02bcdd;
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.button-2:hover {
+    background-color: #02d6dd;
+    color: #ccaf0b;
+}
+
+footer {
+    background-color: #9793935b;
+    color: #2C4223;
+}
+
+footer {
+    padding: 60px 0;
+    height: 250px;
+    background-color: #2E1B17;
+    color: #395f2b;
+}
+
+.footer-info {
+    width: 380px;
+    float: left;
+    margin-top: 10px;
+}
+
+.footer-links {
+    width: 520px;
+    float: right;
+}
+
+.footer-links ul {
+    width: 150px;
+    float: left;
+    margin-left: 20px;
+}
+
+.footer-links ul li {
+    margin: 10px 0;
+}
+
+#transitions2 {
+    height: 120px;
+    width: 100%;
+    background: -webkit-linear-gradient(#c4d177, #2E1B17);
+    background: -o- linear -gradient(#c4d177, #2E1B17);
+    background: -moz- linear -gradient(#c4d177, #2E1B17);
+    background: linear -gradient(#c4d177, #2E1B17);
 }
