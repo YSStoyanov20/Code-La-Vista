@@ -18,3 +18,10 @@
 svg path:hover {
     fill: aqua;
 }
+
+.MapHeader {
+    text-align:center;
+    color: blanchedalmond;
+    font-weight:bold;
+    font-size:25px;
+}
