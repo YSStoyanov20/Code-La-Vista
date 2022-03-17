@@ -15,3 +15,33 @@ html {
     list-style: none;
     text-decoration: none;
 }
+
+
+/* Custom scrollbar*/
+
+::-webkit-scrollbar {
+    width: 12px;
+    height: 3px;
+}
+
+::-webkit-scrollbar-button {
+    background-color: rgba(156, 155, 155, 1);
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgb(205, 208, 204);
+}
+
+::-webkit-scrollbar-track-piece {
+    background-color: rgba(100, 96, 96, 1);
+}
+
+::-webkit-scrollbar-thumb {
+    height: 50px;
+    background-color: rgb(5, 48, 19);
+    border-radius: 7px;
+}
+
+::-webkit-scrollbar-corner {
+    background-color: rgba(238, 238, 238, 1);
+}
