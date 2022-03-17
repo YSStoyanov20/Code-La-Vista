@@ -1,0 +1,39 @@
+nav {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+    position: fixed;
+    background-color: transparent;
+    transition: top 0.4s;
+    z-index: 3;
+}
+
+nav h1 {
+    margin-right: 1vw;
+}
+
+nav a {
+    width: 7%;
+    height: 7%;
+    padding: 0.5em;
+    background-color: #1c30254d;
+    border-radius: 0.75em;
+    color: #F7F4E9;
+    text-align: center;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+nav a {
+    margin-right: 1vw;
+}
+
+nav a:visited {
+    color: #F7F4E9;
+}
+
+nav a:hover {
+    background-color: #1D3126;
+}

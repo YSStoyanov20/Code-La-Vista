@@ -9,6 +9,7 @@
 }
 
 body {
+    background-color: #E6AA68;
     color: blanchedalmond;
 }
 
@@ -55,46 +56,36 @@ header h1 {
     margin-top: 20px;
 }
 
-header nav {
-    float: right;
-}
-
-header nav ul li {
-    display: inline-block;
-    margin-top: 50px;
-}
-
-header nav ul li a {
-    color: burlywood;
-    text-transform: uppercase;
-    font-weight: bold;
-    display: block;
-    margin-right: 20px;
-}
-
 .hero-image {
-    height: 580px;
-    padding-top: 1px;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    background: url("../Images/index/rila-bg.jpg") no-repeat center;
+    background-image: url("../IMAGES/index/rila-bg.jpg");
 }
 
 .hero-image h2 {
-    margin: 180px 0 30px 0;
-    font-size: 3em;
-    color: burlywood;
-    text-shadow: 3px 3px 3px black;
+    margin-bottom: 7vh;
+    text-align: center;
+    text-shadow: 0.075em 0.075em 0.15em #07110c;
+    text-transform: uppercase;
+    font-size: 4em;
 }
 
 .button-1 {
-    width: 180px;
-    height: 50px;
+    width: 20%;
     display: block;
     margin: 0 auto;
-    border-radius: 3px;
-    background: #395f2b;
-    color: burlywood;
-    font-size: 20px;
+    padding: 0.25em;
+    background: #1D3126;
+    border-radius: 0.25em;
+    color: #FFD5AF;
+    font-size: 1.75em;
     text-align: center;
     text-transform: uppercase;
     line-height: 50px;
@@ -102,8 +93,9 @@ header nav ul li a {
 }
 
 .button-1:hover {
-    background-color: #688834;
-    color: hsl(27, 63%, 61%);
+    background-color: #D1D1A7;
+    color: #07110c;
+    box-shadow: 0 0 0.75em #07110c;
 }
 
 .features {
