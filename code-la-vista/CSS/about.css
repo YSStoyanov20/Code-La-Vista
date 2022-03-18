@@ -5,7 +5,7 @@ h1 {
 }
 
 body {
-    background-color: #07110c;
+    background-color: #122019;
     color: #ffebcd;
 }
 
@@ -15,9 +15,14 @@ body {
     align-items: center;
     position: absolute;
     margin: 0 auto;
+    height: 60%;
+    width: 60%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    background: rgb(29, 49, 36, 255);
+    background: rgba(29, 49, 36, 255, 0.5);
+    border-radius: 3em;
 }
 
 h2 {
@@ -26,12 +31,13 @@ h2 {
 }
 
 img {
-    width: 500px;
-    height: 489.2px;
+    width: 600px;
+    height: 589.2px;
     float: left;
 }
 
 img,
 p {
     display: inline;
+    margin: 3em;
 }
