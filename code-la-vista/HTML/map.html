@@ -12,16 +12,22 @@
     <script src="../JS/popup.js"></script>
     <script src="../JS/navbar.js"></script>
 
-    <link rel="icon" href="../Images/logo.jpg" type="image/png" width="40" height="40">
+    <link rel="icon" href="../IMAGES/logo.ico" type="image/png" width="40" height="40">
 </head>
 
 <body>
     <nav id="navbar">
-        <h1>Code-La-Vista.</h1>
+        <h1>Code-La-Vista</h1>
         <a href="Index.html">Home</a>
         <a href="map.html">Map</a>
-        <a href="about.html">About us</a>
+        <a href="about.html">About</a>
     </nav>
+
+    <div class="title">
+        <h1>welcome to our map</h1>
+        <h2>here you can expolere the diferent parts of bulgaria</h2>
+    </div>
+
 
     <div class="bg-image">
         <svg version="1.2" viewbox="0 0 1000 652" xmlns="none">
@@ -171,7 +177,7 @@
             </circle>
             <circle cx="91.6" cy="496.5" id="2">
             </circle>
-           </svg>
+        </svg>
 
     </div>
 
@@ -179,9 +185,20 @@
         <div class="overlay"></div>
         <div class="content">
             <div onclick="togglePopup()" class="close-btn">&times</div>
-            <h2>Title</h2>
+            <h2>geography</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt eius assumenda tenetur eveniet facere. Minus impedit officia repudiandae omnis aliquam. Adipisci dolor aperiam id odit. Aut delectus corrupti iure saepe possimus doloremque
                 adipisci beatae id quidem aperiam reprehenderit ducimus placeat quae quod ea dicta eum fugiat ipsam alias repellat magni, vel est consequuntur sint! Reprehenderit necessitatibus commodi temporibus cupiditate? Perferendis?</p>
+            <button onclick="togglePopup2(), togglePopup()">Economy</button>
+        </div>
+
+    </div>
+    <div class="popup" id="popup-2">
+        <div class="overlay"></div>
+        <div class="content">
+            <div onclick="togglePopup2() " class="close-btn ">&times</div>
+            <h2>Economy</h2>
+            <p>DSDADSAd</p>
+            <button onclick="togglePopup(), togglePopup2()">Economy</button>
         </div>
     </div>
 </body>

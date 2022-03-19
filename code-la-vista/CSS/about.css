@@ -1,43 +1,29 @@
-h1 {
-    font-weight: bold;
-    font-size: 45px;
-    margin-bottom: 20px;
+.bubble-container {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-body {
-    background-color: #122019;
-    color: #ffebcd;
-}
-
-.parent-div {
+.bubble {
+    background: #888870;
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
-    margin: 0 auto;
-    height: 60%;
-    width: 60%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: rgb(29, 49, 36, 255);
-    background: rgba(29, 49, 36, 255, 0.5);
+    margin-top: 1vh;
     border-radius: 3em;
+    width: 80%;
 }
 
-h2 {
-    text-align: center;
-    margin: 60px;
-}
-
-img {
-    width: 600px;
-    height: 589.2px;
+.bubble img {
+    width: auto;
+    height: 50.5vh;
     float: left;
 }
 
-img,
-p {
-    display: inline;
-    margin: 3em;
+.bubble-info {
+    margin-right: 3vw;
+    font-size: 1.25em;
+    text-align: justify;
 }

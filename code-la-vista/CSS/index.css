@@ -8,11 +8,6 @@
     background-color: #07110C;
 }
 
-body {
-    background-color: #E6AA68;
-    color: blanchedalmond;
-}
-
 h1 {
     font-weight: bold;
     font-size: 45px;
@@ -80,7 +75,7 @@ header h1 {
 .button-1 {
     width: 20%;
     display: block;
-    margin: 0 auto;
+    margin: auto;
     padding: 0.25em;
     background: #1D3126;
     border-radius: 0.25em;
@@ -88,13 +83,13 @@ header h1 {
     font-size: 1.75em;
     text-align: center;
     text-transform: uppercase;
-    line-height: 50px;
     transition: 0.5s;
 }
 
 .button-1:hover {
-    background-color: #D1D1A7;
-    color: #07110c;
+    transform: scale(1.15, 1.15);
+    background-color: blanchedalmond;
+    color: #1D3126;
     box-shadow: 0 0 0.75em #07110c;
 }
 

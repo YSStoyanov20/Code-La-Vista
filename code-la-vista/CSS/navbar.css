@@ -10,14 +10,18 @@ nav {
 }
 
 nav h1 {
+    font-weight: bold;
+    font-size: 45px;
+    margin-bottom: 20px;
     margin-right: 1vw;
 }
 
 nav a {
     width: 10%;
-    height: 7%;
+    height: 10%;
+    max-height: 10%;
     padding: 0.5em;
-    background-color: #1c30254d;
+    background-color: #01221081;
     border-radius: 0.75em;
     color: #F7F4E9;
     text-align: center;
@@ -35,5 +39,5 @@ nav a:visited {
 }
 
 nav a:hover {
-    background-color: #1D3126;
+    background-color: #0e3821;
 }

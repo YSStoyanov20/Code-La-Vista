@@ -1,18 +1,18 @@
-body {
-    background-color: #07110C;
-}
-
 .wrapper {
     margin: 0 auto;
     padding: 0 10px;
     width: 100%;
 }
 
-h1 {
-    margin-bottom: 20px;
-    font-size: 45px;
-    font-weight: bold;
-    color: blanchedalmond
+.title {
+    display: block;
+    padding: 80px 5%;
+    margin-top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
 }
 
 .bg-image {
@@ -27,8 +27,8 @@ h1 {
 
 .bg-image path {
     fill: blanchedalmond;
-    stroke: black;
-    stroke-width: 2px;
+    stroke: #1D3124;
+    stroke-width: 3px;
     transition: fill 0.3s;
 }
 
@@ -60,7 +60,7 @@ svg path:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(0);
-    background: lightblue;
+    background: #265446;
     width: 450px;
     height: 300px;
     z-index: 2;
@@ -77,7 +77,7 @@ svg path:hover {
     width: 30px;
     height: 30px;
     background: #07110C;
-    color: aqua;
+    color: #712E1E;
     font-size: 25px;
     font-weight: 600;
     line-height: 30px;
