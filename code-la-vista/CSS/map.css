@@ -70,6 +70,14 @@ svg path:hover {
     box-sizing: border-box;
 }
 
+.popup .text {
+    height: 75%;
+}
+
+.popup .content h2 {
+    text-transform: uppercase;
+}
+
 .popup .content p {
     margin-top: 3.5vh;
 }
@@ -77,16 +85,15 @@ svg path:hover {
 .popup .button-1 {
     width: 15%;
     display: block;
-    margin-top: 25vh;
     margin-left: auto;
     margin-right: auto;
     padding: 0.25em;
     background: #1D3126;
     border-radius: 0.5em;
     color: #FFD5AF;
-    font-size: 1.4em;
+    font-size: 1.2em;
     text-align: center;
-    text-transform: lowercase;
+    text-transform: uppercase;
     transition: 0.5s;
 }
 

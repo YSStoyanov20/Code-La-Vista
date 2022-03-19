@@ -181,23 +181,43 @@
 
     </div>
 
+
     <div class="popup" id="SlivenGeo">
         <div class="overlay"></div>
         <div class="content">
             <div onclick="toggleSlivenGeo()" class="close-btn">&times</div>
             <h2>geography</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt eius assumenda tenetur eveniet facere. Minus impedit officia repudiandae omnis aliquam. Adipisci dolor aperiam id odit. Aut delectus corrupti iure saepe possimus doloremque
-                adipisci beatae id quidem aperiam reprehenderit ducimus placeat quae quod ea dicta eum fugiat ipsam alias repellat magni, vel est consequuntur sint! Reprehenderit necessitatibus commodi temporibus cupiditate? Perferendis?</p>
-            <a class="button-1" onclick="toggleSlivenEco(), toggleSlivenGeo()">Economy</a>
-        </div>
+            <div class="text">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt eius assumenda tenetur eveniet facere. Minus impedit officia repudiandae omnis aliquam. Adipisci dolor aperiam id odit. Aut delectus corrupti iure saepe possimus doloremque
+                    adipisci beatae id quidem aperiam reprehenderit ducimus placeat quae quod ea dicta eum fugiat ipsam alias repellat magni, vel est consequuntur sint! Reprehenderit necessitatibus commodi temporibus cupiditate? Perferendis?</p>
+            </div>
 
+            <a class="button-1" onclick="toggleSlivenCulture(), toggleSlivenGeo()">Culture</a>
+        </div>
     </div>
+
+    <div class="popup" id="SlivenCulture">
+        <div class="overlay"></div>
+        <div class="content">
+            <div onclick="toggleSlivenCulture() " class="close-btn ">&times</div>
+            <h2>Culture</h2>
+            <div class="text">
+                <p>DSDADSAd</p>
+            </div>
+
+            <a class="button-1" onclick="toggleSlivenGeo(), toggleSlivenEco()">Geo</a>
+        </div>
+    </div>
+
     <div class="popup" id="SlivenEco">
         <div class="overlay"></div>
         <div class="content">
             <div onclick="toggleSlivenEco() " class="close-btn ">&times</div>
-            <h2>Economy</h2>
-            <p>DSDADSAd</p>
+            <h2>Culture</h2>
+            <div class="text">
+                <p>DSDADSAd</p>
+            </div>
+
             <a class="button-1" onclick="toggleSlivenGeo(), toggleSlivenEco()">Economy</a>
         </div>
     </div>

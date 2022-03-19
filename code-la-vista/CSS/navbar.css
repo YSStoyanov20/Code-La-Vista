@@ -21,6 +21,7 @@ nav a {
     height: 10%;
     max-height: 10%;
     padding: 0.5em;
+    margin-right: 1vw;
     background-color: #01221081;
     border-radius: 0.75em;
     color: #F7F4E9;
@@ -28,10 +29,6 @@ nav a {
     font-size: 1.5em;
     text-transform: uppercase;
     transition: 0.5s;
-}
-
-nav a {
-    margin-right: 1vw;
 }
 
 nav a:visited {
