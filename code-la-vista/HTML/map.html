@@ -31,7 +31,7 @@
 
     <div class="bg-image">
         <svg version="1.2" viewbox="0 0 1000 652" xmlns="none">
-            <a onclick="togglePopup()" xlink:title="Sliven">
+            <a onclick="toggleSlivenGeo()" xlink:title="Sliven">
                 <path d="M675.4 274.8l-3.5 6.3 3.2 7.4 0.5 4.3-1.5 5 2.3 5.8 1.9 5.6-2.4 3.2-0.7 4 0.8 5.4-3.6 3.3-5 1.9-4 3.6 2.2 5.6 5.1 1.7 3.8 2.5 3.9 2 5.5-1.6 5.3-2.8 0.5 7.2-1.6 6.4-1.7 2.5-2.1 1.2-4.2-0.7-1.6 2-2.2 1.6-2.5 2.3-2.5 3.2-9.2 2.9-9.2-0.8-4.6 1.1-4.2 3 1.7 3.5 1.7 2.9-3.1 1.6-2.7 2.5-3.3 8.6-7.4 2.5-8.1-3-3.3 2.1 1.6 6.7-4.7 3.2-5.8 0.5 1.1 7.9 5 0.3 2.9 2.1-8.2 19.8 1.2 10.5-2.3 7.9-5.8 5.1-3.8 0.7-3.5-1.6-4.6 0.2-4.9 1.6-8.1-9.7 0.8-15.8-3.2-9.8-7.4-10.3-2.1-4.9 0.2-5.4-4.5-8.2 1.9-4.3-0.4-5.2-2.7-5.2-3.6-1.4-1.8-3.2 8.3-6.4-0.7-7.7-4.5-8.7-4.6-15.4-1.7-14.8 7.2-0.2 7.2-1.6 10.5 1.5 3.6-2.6 3.3-3.7 3.7-0.9 3.7 0.1 2-4.9-0.4-6.3 2.5-3.8 3.8-1.2 6.9-4 3.6-8.6 4.2-0.6 4.1-1.5 2-3.1 2.3-2.8 2.7-1.2 1-2.9 0-6.5 2.8 0.6 2.6-0.1 4.4-2 4 1.8-0.7 2.6 1.1 2.4 1.6-1.1 1.2-2.1 6 4.1 4.1 0.2 3.9-0.9 3.6-2.3 3.5 1.4 4.7 3.3 5 2.6z" id="BGR2231" name="Sliven">
                 </path>
             </a>
@@ -181,24 +181,24 @@
 
     </div>
 
-    <div class="popup" id="popup-1">
+    <div class="popup" id="SlivenGeo">
         <div class="overlay"></div>
         <div class="content">
-            <div onclick="togglePopup()" class="close-btn">&times</div>
+            <div onclick="toggleSlivenGeo()" class="close-btn">&times</div>
             <h2>geography</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt eius assumenda tenetur eveniet facere. Minus impedit officia repudiandae omnis aliquam. Adipisci dolor aperiam id odit. Aut delectus corrupti iure saepe possimus doloremque
                 adipisci beatae id quidem aperiam reprehenderit ducimus placeat quae quod ea dicta eum fugiat ipsam alias repellat magni, vel est consequuntur sint! Reprehenderit necessitatibus commodi temporibus cupiditate? Perferendis?</p>
-            <button onclick="togglePopup2(), togglePopup()">Economy</button>
+            <a class="button-1" onclick="toggleSlivenEco(), toggleSlivenGeo()">Economy</a>
         </div>
 
     </div>
-    <div class="popup" id="popup-2">
+    <div class="popup" id="SlivenEco">
         <div class="overlay"></div>
         <div class="content">
-            <div onclick="togglePopup2() " class="close-btn ">&times</div>
+            <div onclick="toggleSlivenEco() " class="close-btn ">&times</div>
             <h2>Economy</h2>
             <p>DSDADSAd</p>
-            <button onclick="togglePopup(), togglePopup2()">Economy</button>
+            <a class="button-1" onclick="toggleSlivenGeo(), toggleSlivenEco()">Economy</a>
         </div>
     </div>
 </body>
