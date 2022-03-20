@@ -2,14 +2,6 @@
 <img src= "code-la-vista/Documentation/logo.png" width="425" text-align="center">
 </p>
 
-<p align ="center">
-   <img src = "https://img.shields.io/github/languages/count/YSStoyanov20/Code-La-Vista?style=for-the-badge"> <img src = "https://img.shields.io/github/contributors/YSStoyanov20/Code-La-Vista?style=for-the-badge"> <img src = "https://img.shields.io/github/repo-size/YSStoyanov20/Code-La-Vista?style=for-the-badge">  
-   <img src = "https://img.shields.io/github/last-commit/YSStoyanov20/Code-La-Vista?style=for-the-badge"> <img src = "https://img.shields.io/github/languages/top/YSStoyanov20/Code-La-Vista?style=for-the-badge">
-  </p>
-   
-
-#
-
 # 📖 About
 A beautiful country like Bulgaria is worthy enough to be known and studied by foreigners. That's what our website is for. It features an interactive map with all regions, all clickable and linked to specially dedicated pages. There you can learn about the demographics, culture, history and notable places in the region.
 
@@ -19,13 +11,13 @@ A beautiful country like Bulgaria is worthy enough to be known and studied by fo
 <img src = "https://cdn.discordapp.com/attachments/908313550454423643/955039385789812766/unknown.png">
 </p>
 
-# 📄 [Documentation](https://github.com/YSStoyanov20/Code-La-Vista/blob/main/code-la-vista/Documentation/Code-La-Vista.docx)
-# 📄 [Presentation](https://github.com/YSStoyanov20/Code-La-Vista/blob/main/code-la-vista/Documentation/Code-La-Vista.pptx)
+# 📖 [Documentation](https://github.com/YSStoyanov20/Code-La-Vista/blob/main/code-la-vista/Documentation/Code-La-Vista.docx)
+# 📗 [Presentation](https://github.com/YSStoyanov20/Code-La-Vista/blob/main/code-la-vista/Documentation/Code-La-Vista.pptx)
 
 
 
 # Used Technologies
-<img src = "https://cdn.worldvectorlogo.com/logos/html-1.svg" width = "40"> <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" width = "40"> <img src ="https://fedojo.com/wp-content/uploads/2019/03/logo-javascript-png-html-code-allows-to-embed-javascript-logo-in-your-website-587.png" width = "80"> <img src ="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png" width = "45">
+<img src = "https://cdn.worldvectorlogo.com/logos/html-1.svg" width = "40"> <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" width = "40"> <img src ="https://fedojo.com/wp-content/uploads/2019/03/logo-javascript-png-html-code-allows-to-embed-javascript-logo-in-your-website-587.png" width = "75"> <img src ="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png" width = "45">
 
 # 🧍 Participants
 
