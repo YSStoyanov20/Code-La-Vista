@@ -1,3 +1,5 @@
+/*background color change*/
+
 .color {
     transition: 1s;
     background-color: #1D3124;
@@ -51,6 +53,9 @@ header h1 {
     margin-top: 20px;
 }
 
+
+/*background image*/
+
 .hero-image {
     height: 100vh;
     margin: 0;
@@ -92,6 +97,9 @@ header h1 {
     color: #1D3126;
     box-shadow: 0 0 0.75em #07110c;
 }
+
+
+/*featured section*/
 
 .features {
     margin: 0;
@@ -175,6 +183,9 @@ header h1 {
     text-align: center;
 }
 
+
+/*second link to map*/
+
 .cta {
     padding: 60px 0;
     text-align: center;
@@ -187,6 +198,9 @@ header h1 {
     padding: 0 0 20px 0;
     font-size: 60px;
 }
+
+
+/*footer*/
 
 footer {
     background-color: #9793935b;
@@ -228,6 +242,9 @@ footer {
 .footer-links a {
     color: gray
 }
+
+
+/*video resize*/
 
 @media screen and (max-width: 1400px) {
     .content1 iframe {

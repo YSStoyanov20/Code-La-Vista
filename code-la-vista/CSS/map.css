@@ -4,6 +4,9 @@
     width: 100%;
 }
 
+
+/*Title*/
+
 .title {
     display: block;
     padding: 80px 5%;
@@ -14,6 +17,9 @@
     text-align: center;
     font-size: 30px;
 }
+
+
+/*Map*/
 
 .bg-image {
     width: 85%;
@@ -44,6 +50,9 @@ svg path:hover {
     font-size: 25px;
 }
 
+
+/*Popup*/
+
 .popup .overlay {
     position: fixed;
     top: 0px;
@@ -66,7 +75,7 @@ svg path:hover {
     z-index: 2;
     text-align: center;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 30px;
     box-sizing: border-box;
 }
 
