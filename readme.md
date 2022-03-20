@@ -16,11 +16,11 @@ A beautiful country like Bulgaria is worthy enough to be known and studied by fo
 
 # 🔭 Preview
 <p align = "center">
-<img src = "https://cdn.discordapp.com/attachments/943523378659229706/953733246150115338/unknown.png">
+<img src = "https://cdn.discordapp.com/attachments/908313550454423643/955039385789812766/unknown.png">
 </p>
 
-# 📄 [Documentation](https://github.com/YSStoyanov20/Code-La-Vista/tree/main/Documentation)
-# 📄 [Presentation](https://github.com/YSStoyanov20/Code-La-Vista/blob/main/Documentation/Code-La-Vista.pptx)
+# 📄 [Documentation](https://github.com/YSStoyanov20/Code-La-Vista/blob/main/code-la-vista/Documentation/Code-La-Vista.docx)
+# 📄 [Presentation](https://github.com/YSStoyanov20/Code-La-Vista/blob/main/code-la-vista/Documentation/Code-La-Vista.pptx)
 
 
 
