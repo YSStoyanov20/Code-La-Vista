@@ -85,9 +85,9 @@ svg path:hover {
 .popup .button-1 {
     width: 20%;
     display: inline;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0.25em;
+    margin-left: 2em;
+    margin-right: 2em;
+    padding: 0.5em;
     background: #1D3126;
     border-radius: 0.5em;
     color: #FFD5AF;
